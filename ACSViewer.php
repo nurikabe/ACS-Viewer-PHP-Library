@@ -36,8 +36,8 @@ class ACSViewer {
     );
 
     private static $optional_parameters = array(
-        'viewerWidth' => '#^\d+(%|px)?$#i',
-        'viewerHeight' => '#^\d+(%|px)?$#i',
+        'viewerwidth' => '#^\d+(%|px)?$#i',
+        'viewerheight' => '#^\d+(%|px)?$#i',
         'printButton' => '#^(yes|no)$#i',
         'plainText' => '#^(yes|no)$#i',
         'toolbarColor' => '#^[0-9a-f]{6}$#i',
