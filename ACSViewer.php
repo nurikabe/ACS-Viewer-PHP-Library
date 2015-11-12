@@ -31,7 +31,7 @@ class ACSViewer {
     private $viewingSessionId = null;
 
     private static $required_parameters = array(
-        'key' => '#^K\d+$#',
+        'key' => '/^\S{8,}\z/',
         'document' => '/^(([^:\/?#]+):)?(\/\/([^\/?#]*))?([^?#]*)(\?([^#]*))?(#(.*))?$/i'
     );
 
