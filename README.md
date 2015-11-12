@@ -19,8 +19,8 @@ A key is required to use the ACS viewer and its libraries. To get a key you have
 **Optional Viewer Parameters**
 
 - **viewerType**: Choosing between either the html5 viewer or the slideshow version (html5 | slideshow)
-- **viewerWidth**: Sets the width of the viewer in either % or px (int)
-- **viewerHeight**: Sets the height of the viewer in either % or px (int)
+- **viewerwidth**: Sets the width of the viewer in either % or px (int)
+- **viewerheight**: Sets the height of the viewer in either % or px (int)
 - **logoImage**: Changes the logo image that displays before the viewer is loaded (url)
 - **toolbarColor**: Changes the color of the toolbar using hex color codes without the # (i.e. FFFFFF)
 
